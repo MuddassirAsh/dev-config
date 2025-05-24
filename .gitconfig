@@ -1,0 +1,16 @@
+[user]
+	email = $NAME
+	name = $EMAIL
+[core]
+	excludesfile = /Users/muddassirash/.gitignore_global
+    editor = vim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /private/var/folders/bb/209ltqmx7l3cthkny0n51kwm0000gn/T/AppTranslocation/1BDA5301-21A8-4BAD-9F70-60777EE7A281/d/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/muddassirash/.stCommitMsg
+[init]
+	defaultBranch = master
